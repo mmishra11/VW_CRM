@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [VWCRM Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.listeners.MyListener"/>
+  </listeners>
+  <test thread-count="5" name="VWCRM App Test Cases(failed)">
+    <classes>
+      <class name="com.vwcrm.qa.testcases.TopPartsProdGrpTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="prodGrpAllTest"/>
+        </methods>
+      </class> <!-- com.vwcrm.qa.testcases.TopPartsProdGrpTest -->
+    </classes>
+  </test> <!-- VWCRM App Test Cases(failed) -->
+</suite> <!-- Failed suite [VWCRM Test Automation Test Suite] -->

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="VWCRM Test Automation Test Suite" duration-ms="82593" started-at="2018-09-13T07:16:18Z" finished-at="2018-09-13T07:17:41Z">
+    <groups>
+    </groups>
+    <test name="VWCRM App Test Cases" duration-ms="82593" started-at="2018-09-13T07:16:18Z" finished-at="2018-09-13T07:17:41Z">
+      <class name="com.vwcrm.qa.testcases.TopPartsProdGrpTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.vwcrm.qa.testcases.TopPartsProdGrpTest@598067a5]" name="setUp" is-config="true" duration-ms="35132" started-at="2018-09-13T07:16:19Z" finished-at="2018-09-13T07:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="prodGrpMechanicalTest()[pri:5, instance:com.vwcrm.qa.testcases.TopPartsProdGrpTest@598067a5]" name="prodGrpMechanicalTest" duration-ms="44877" started-at="2018-09-13T07:16:54Z" finished-at="2018-09-13T07:17:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prodGrpMechanicalTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.vwcrm.qa.testcases.TopPartsProdGrpTest@598067a5]" name="tearDown" is-config="true" duration-ms="1872" started-at="2018-09-13T07:17:39Z" finished-at="2018-09-13T07:17:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.vwcrm.qa.testcases.TopPartsProdGrpTest -->
+    </test> <!-- VWCRM App Test Cases -->
+  </suite> <!-- VWCRM Test Automation Test Suite -->
+</testng-results>
